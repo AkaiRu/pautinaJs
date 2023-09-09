@@ -1,9 +1,11 @@
 setTimeout(() => {
-    let cost1 = document.getElementById('a');
-    let money1 = document.getElementById('b');
-    let a = Number(cost1.value);
-    let b = Number(money1.value);
+  let a = prompt('По чём душа?');
+  let b = prompt('Сколько налом у тебя?');
+  a = Number(a);
+  b = Number(b);
+    let pre1 = document.querySelector('pre')
       if(a==b){
+        pre1.style.background = "#00FA9A";
         const text = [
             'Покупка завершена\n',
         ];
@@ -36,7 +38,7 @@ setTimeout(() => {
     }
     else{
         if(a > b){
-
+          pre1.style.background = "#FF1493";
             let x =a-b;
             const text = [
                 'Для покупки не хватает: '+ x +' руб.\n'
@@ -72,6 +74,7 @@ setTimeout(() => {
         }
         else{
             let x=b-a;
+            pre1.style.background = "#00FA9A";
             const text = [
                 'Покупка совершнена. Вот твоя сдача: ' + x + ' руб.\n'
             ];
