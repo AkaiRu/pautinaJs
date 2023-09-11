@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-style: 48px;
+    margin-bottom: 30px;
+    
+}
+.box_list{
+    background-color: #00ff37;
+    display: flex;
+    flex-wrap: wrap;
+}
