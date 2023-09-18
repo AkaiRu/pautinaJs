@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__inner">
+                    <a href="https://github.com/AkaiRu/pautinaJs" class="header-link texter">GitHub</a>
+                    <div id="zatemnenie">
+                        <div id="okno">
+                            <div class="block_form">
+                                <div class="forma">
+                                    <label>Название</label>
+                                    <input type="text" class="titlename" placeholder="Название">
+                                    <label>Дата</label>
+                                    <input type="date" class="date">
+                                    <label>Автор</label>
+                                    <input type="text" class="author" placeholder="Ваше имя">
+                                    <label>id</label>
+                                    <input type="text" class="id" placeholder="id">
+                                    <label>Текст</label>
+                                    <input cols="30" rows="10" class="text" placeholder="Текст">
+                                    <input type="submit" class="button" onclick="addNews()" value="Создать новость">
+                                </div>
+                            </div>
+
+                            <a href="#" class="close">Закрыть окно</a>
+                        </div>
+                    </div>
+                    <a href="#zatemnenie">Добавить новость</a>
+                    
+                </div>
+            </header>
+            <main class="main">
+                <ul class="news-list"></ul>
+                <div class="box_list">
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
