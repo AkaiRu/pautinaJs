@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "retro";
+    src: url(../font/207-font.otf);
+}
+body{
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+p{
+    font-family: "retro";
+    padding-bottom: 5px;
+}
+.container{
+    font-family: "retro";
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1400px;
+    }
+    
+    .container:hover,
+    .container:focus,
+    .container:active{
+    transition: 0.5s;
+    }
+    
+    .box_list{
+    font-family: "retro";
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    }
+    .box_list1{
+        font-family: "retro";    
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 25px;
+    background-color: red;
+    }
+    
+    button{
+    font-family: "retro";
+    width: 450px;
+    padding-bottom: 45px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    font-family: 'clother';
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    }
+    
+    .button3{
+        padding-bottom: 45px;
+    font-family: "retro";
+    width: 450px;
+    height: 70px;
+    background-color: rgb(136, 9, 255);
+    border:none;
+    border-radius: 15px;
+    font-family: 'clother';
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    }
+    
+    button:hover,
+    button:focus,
+    button:active{
+    transition: 0.5s;
+    transform: scale(1.05);
+    }
