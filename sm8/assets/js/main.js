@@ -42,7 +42,7 @@ button6.addEventListener('mouseout', function(){
 })
     
 const yourSound = new Audio();
-yourSound.src = '/assets/audio/yamete_kudasai.mp3'; // ссылка на аудиофайл
+yourSound.src = '../assets/audio/yamete_kudasai.mp3'; // ссылка на аудиофайл
 document.getElementById('button10').onmousemove = function xz() {  
     setTimeout(function(){
         yourSound.play();
