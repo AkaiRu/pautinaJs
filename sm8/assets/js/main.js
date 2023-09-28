@@ -41,11 +41,11 @@ button6.addEventListener('mouseout', function(){
     button6.style.background = `rgb(${rand(255)},${rand(255)},${rand(255)})`
 })
     
-// const yourSound = new Audio();
-// yourSound.src = '/assets/audio/yamete_kudasai.mp3';
+const yourSound = new Audio();
+yourSound.src = './assets/audio/yamete_kudasai.mp3';
 document.getElementById('button10').onmousemove = function xz() {  
     setTimeout(function(){
-        // yourSound.play();
+        yourSound.play();
         body.style.background = `rgb(${rand(255)},${rand(255)},${rand(255)})`
     }, 100);
    
