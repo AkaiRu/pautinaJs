@@ -35,7 +35,7 @@ function rand(max){
             inputDay.style.boxShadow ='0 0 5px 2px red'
             error.innerHTML = 'Вы еще мал'   
         }else if(inputDay.value.length < 2){
-            error2.innerHTML = 'год должен быть не менее 2 символов'
+            error2.innerHTML = 'год должен быть не менее 4 символов'
             inputDay.style.boxShadow ='0 0 5px 2px red'
             error.innerHTML = 'Вы еще мал'   
         }else{
@@ -50,9 +50,9 @@ function rand(max){
         let age = x - a;
         
         if(age < 18){
-            error.innerHTML = '<p class="p-er">Вы еще мал(</p>'   
+            error.innerHTML = '<p class="p-er">Вы еще малолетный задрот(</p>'   
         }
-        else if(inputDay.value.length < 2){
+        else if(inputDay.value.length < 4){
             error.innerHTML = 'Неверный год'
         }
         else if(inputName.value.length < 2){
